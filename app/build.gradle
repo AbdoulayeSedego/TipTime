@@ -15,6 +15,7 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true // For older version of Android less than API 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
